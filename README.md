@@ -58,7 +58,9 @@ This will likely involve:
 
 As a plant breeder, I want access to collected data as soon as possible so that I can curate and analyse it.
 
-## Rough API Calls
+## API Calls
+
+See the documentation on [Apiary](http://docs.fieldbook.apiary.io/).
 
 ### Get Trials /fieldbook/getTrials
 
