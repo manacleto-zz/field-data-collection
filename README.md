@@ -62,15 +62,17 @@ As a plant breeder, I want access to collected data as soon as possible so that 
 
 See the documentation on [Apiary](http://docs.fieldbook.apiary.io/).
 
-### Get Trials /fieldbook/getTrials
+### Get Data Sets /fieldbook/getDataSets
 
-This could potentially be a search instead? May be more useful.
+Get a list of data sets to choose from.
 
-### Get Trial Information /fieldbook/{trialId}
+### Get Data Set Information /fieldbook/{dataSetId}
 
 Returns all information we need about a trial to initiate the collection device and allow the user to specify what they want to measure. May need a separate call to get previously measured data..?
 
-### Upload Collection Data
+### Get Traits /fieldbook/{dataSetId}/traits
+
+### Upload Data /fieldbook{dataSetId} (POST - for example)
 
 Feed data back to a central agent for curation / analysing / publication. What happens to the data beyond the point of "upload" is out of the scope of this API.
 
