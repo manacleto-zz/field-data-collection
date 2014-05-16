@@ -72,6 +72,8 @@ Returns all information we need about a trial to initiate the collection device 
 
 ### Get Traits /fieldbook/{dataSetId}/traits
 
+Get a list of traits to be measured for that data set.
+
 ### Upload Data /fieldbook{dataSetId} (POST - for example)
 
 Feed data back to a central agent for curation / analysing / publication. What happens to the data beyond the point of "upload" is out of the scope of this API.
